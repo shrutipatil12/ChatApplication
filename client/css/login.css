@@ -1,0 +1,40 @@
+
+/******************************************************************************                
+ *  @description    :Applying style for html pages
+ *  @file           :login.css
+ *  @author         :Shruti
+ *  @version        :1.0
+ 
+ ******************************************************************************/
+.body
+ {
+    margin-top: 180px;
+    width: 500px;
+    border: 1px solid black;
+    padding: 90px;
+    background-color: lightgray
+     }
+
+  .login_label {
+    display: inline-block;
+    text-align: right;
+    float: none;
+  }
+
+  .login_input {
+    display: inline-block;
+    text-align: right;
+    padding: 5px;
+  }
+
+  .login_button {
+    display: inline-block;
+    text-align: center;
+    float: none;
+    
+  }
+  .login_image
+{
+  background-image: url("/home/user/chatApp/client/assets/images.jpg");
+  max-height: auto;
+}

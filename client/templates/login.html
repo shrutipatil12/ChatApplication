@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html ng-app="client">
+
+
+<head>
+  <link rel="stylesheet" href="/home/user/chatApp/client/css/login.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+</head>
+
+<body>
+
+  <div ng-controller="controlLogin">
+    <form novalidate>
+      <title>login</title>
+
+      <body style="margin-top:100px; ">
+
+        <div class="body" style="margin-left:350px;">
+          <br>
+          <form>
+            <h2>Login</h2>
+            <label class="email">Email ID</label>
+            <input type="email" id="txtEmailID" ng-model="email"><br><br>
+
+            <label>Password</label>
+            <input type="password" id="txtPassword" ng-model="password"><br><br>
+
+            <button ng-click="login()" id="btnSubmit" class="login_button">Submit</button><br><br>
+
+
+            <a ui-sref="forget">Forget Password?</a><br>
+            <a ui-sref="Register">Create new Account</a><br>
+
+            <!-- <a href="http://localhost:3000/#!/forget">Forgot Password</a><br>
+            <a href="http://localhost:3000/#!/register">Create new account</a><br>  -->
+
+        </div>
+    </form>
+    </style>
+</body>
+
+
+</form>
+
+</div>
+
+</body>
+
+</html>

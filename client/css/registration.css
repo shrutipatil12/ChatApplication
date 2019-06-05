@@ -1,0 +1,33 @@
+
+/******************************************************************************                
+ *  @description    :Applying style for html pages
+ *  @file           :registration.css
+ *  @author         :Shruti
+ *  @version        :1.0
+ 
+ ******************************************************************************/
+.register {
+    margin-top: 150px;
+    width: 500px;
+    border: 1px solid black;
+    padding: 90px;
+    background-color: lightgray;
+    
+}
+.registerLabel {
+  display: inline-block;
+  text-align: right;
+  float: none;
+}
+
+.registerInput {
+  display: inline-block;
+  text-align: right;
+  padding: 5px;
+}
+
+.registerButton {
+  display: inline-block;
+  text-align: center;
+  float: none;
+}

@@ -1,0 +1,20 @@
+
+/******************************************************************************                
+ *  @description    :Applying style for html pages
+ *  @file           :forgotPswd.css
+ *  @author         :Shruti
+ *  @version        :1.0
+ 
+ ******************************************************************************/
+.forgotPswd{
+    margin-top: 200px;
+    border: 1px solid black;
+    width: 500px;
+    padding: 130px;
+    background-color: lightgray;
+  
+}
+.button{
+    padding:30px;
+    margin-left: -30px;
+}

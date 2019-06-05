@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html ng-app="client">
+
+<head>
+    <link href="/home/user/chatApp/client/css/registration.css" type="text/css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</head>
+
+<body>
+
+    <div ng-controller="controlRegister">
+        <form novalidate>
+            <title>Registeration</title>
+            <br>
+            <div class="register" style="margin-left:350px;">
+                <div>
+                    <h2>Registration </h2>
+                </div>
+                <div>
+                    <form name="register" method="POST">
+                        <label class="First Name">First Name</label>
+                        <input type="text" id="txtfirstname" ng-model="firstname" text-align="left" width="48"
+                            height="48"><br><br>
+
+                        <label>Email
+                            ID</label>
+                        <input type="email" id="txtemailId" ng-model="email"><br><br>
+
+
+                        <label>password</label>
+                        <input type="password" id="txtpassword" ng-model="password"><br><br>
+
+
+                        <label>re-type password</label>
+                        <input type="password" id="txtpsword" ng-model="repassword"><br><br>
+
+                        <button
+                            ng-click="register()">Register</button><span></span>
+
+
+                </div>
+
+        </form>
+        <p>
+            <h3>Click here to Login</h3>
+        </p>
+        <a ui-sref="login">Log In</a>
+
+    </div>
+
+</body>
+
+</html>

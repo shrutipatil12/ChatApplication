@@ -1,0 +1,20 @@
+
+/******************************************************************************                
+ *  @description    :Applying style for html pages
+ *  @file           :resetPswd.css
+ *  @author         :Shruti
+ *  @version        :1.0
+ 
+ ******************************************************************************/
+.resetPswd{
+    margin-top: 200px;
+    border: 1px solid black;
+    width: 250px;
+    padding: 130px;
+    background-color: lightgray;
+  
+}
+.button{
+    padding:90px;
+    margin-left: -50px;
+}
